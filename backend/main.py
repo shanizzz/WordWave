@@ -2,7 +2,7 @@ import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="Dictionary API", version="1.0.0")
+app = FastAPI(title="WordWave API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -17,7 +17,7 @@ DICTIONARY_API = "https://api.dictionaryapi.dev/api/v2/entries/en"
 
 @app.get("/")
 async def root():
-    return {"message": "Dictionary API", "docs": "/docs"}
+    return {"message": "WordWave API", "docs": "/docs"}
 
 
 @app.get("/api/word/{word}")

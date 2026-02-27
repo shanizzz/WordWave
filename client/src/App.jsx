@@ -80,10 +80,10 @@ export default function App() {
       <div className="max-w-4xl mx-auto px-4 py-6 sm:py-10 flex flex-col gap-4 min-h-[calc(100vh-3rem)]">
         <header className="text-center">
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-white mb-2">
-            Dictionary
+            WordWave
           </h1>
           <p className="text-slate-400 text-sm sm:text-base">
-            Look up definitions using the free Dictionary API
+            Look up meanings, pronunciation, synonyms, and antonyms
           </p>
         </header>
 
