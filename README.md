@@ -14,7 +14,7 @@ WordWave is a small full‑stack dictionary application built with **Python** (b
 ```bash
 cd dictionary-app/backend
 pip install -r requirements.txt
-py -3.14 -m uvicorn main:app --reload
+uvicorn main:app --reload
 ```
 
 Backend runs at http://localhost:8000
